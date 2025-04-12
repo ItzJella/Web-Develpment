@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Styling Example</title>
+  <style>
+    h1 {
+      color: royalblue;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 5px gray;
+    }
+    p {
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: bold;
+      text-decoration: underline;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+      line-height: 1.8;
+      text-indent: 40px;
+    }
+
+    .link{
+        color: blue;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+
+    div{
+        /* width: 300px;
+        height: 100px; */
+        background-color: rgb(233, 185, 123);
+        /* border: 1px solid; */
+        box-shadow: 10px 10px 10px 5px antiquewhite;
+    }
+  </style>
+</head>
+<body>
+   
+  <h1>Text Styling in CSS</h1>
+ 
+  <div>
+  <p>This is an example paragraph to demonstrate various CSS text styling properties. Play around with the styles to see how they work!</p>
+</div>
+
+    <a href="" class="link">Click this link</a>
+</body>
+</html>
