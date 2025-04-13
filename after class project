@@ -1,0 +1,71 @@
+body{
+    background-color: antiquewhite;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px rgb(249, 201, 137);
+}
+h1::before{
+    content: "🥦";
+}
+
+h1+p {
+    text-indent: 40px;
+    padding: 5px;
+    background-color: rgb(156, 192, 63);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px greenyellow;
+}
+
+ p::before{
+    content: "🍌";
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+ul li:hover{
+    color: rgb(87, 87, 246);
+}
+
+ul li::before{
+    content:"🍒" ;
+}
+
+a:hover{
+    color: rgb(67, 67, 247);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food GROUPS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Food Groups</h1>
+    
+    <p>Food groups categorise foods for educational purposes, usually grouping together foods with similar nutritional properties or biological classifications. Food groups are often used in nutrition guides, although the number of groups used can vary widely.</p>
+    <ul>
+        <li>Fruits</li>
+        <li>Vegetables</li>    
+        <li> Grains</li>   
+        <li> Protein Foods</li>   
+        <li>Dairy</li>    
+        <li>Fish</li>    
+        <li>Meat</li>    
+         <li>Oil</li> 
+         <li>Fat </li>   
+         <li>Sugar/Sweet </li>   
+         <li>Water</li>     
+    </ul>
+
+    <a href="https://en.wikipedia.org/wiki/Food_group">wikipedia helps u get more info</a>
+</body>
+</html>
